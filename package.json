@@ -1,0 +1,24 @@
+{
+  "name": "objToString",
+  "version": "1.0.1",
+  "description": "对象转字符串（非JSON）",
+  "license": "MIT",
+  "repository": "zhw2590582/objToString",
+  "authors": [
+    "Harvey Zack <laozhaochaguan@gmail.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "objToString"
+  ],
+  "bugs": {
+    "url": "https://github.com/zhw2590582/objToString/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/objToString#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
