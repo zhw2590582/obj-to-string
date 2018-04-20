@@ -1,4 +1,4 @@
-module.exports = obj => {
+function objToString(obj) {
   switch (typeof obj) {
     case "undefined":
         return 'undefined';
@@ -18,3 +18,5 @@ module.exports = obj => {
         return obj.toString();
   }
 }
+
+module.exports = objToString;
