@@ -1,9 +1,9 @@
 {
-  "name": "objToString",
+  "name": "obj-to-string",
   "version": "1.0.1",
   "description": "对象转字符串（非JSON）",
   "license": "MIT",
-  "repository": "zhw2590582/objToString",
+  "repository": "zhw2590582/obj-to-string",
   "authors": [
     "Harvey Zack <laozhaochaguan@gmail.com>"
   ],
@@ -15,9 +15,9 @@
     "objToString"
   ],
   "bugs": {
-    "url": "https://github.com/zhw2590582/objToString/issues"
+    "url": "https://github.com/zhw2590582/obj-to-string/issues"
   },
-  "homepage": "https://github.com/zhw2590582/objToString#readme",
+  "homepage": "https://github.com/zhw2590582/obj-to-string#readme",
   "devDependencies": {
     "jest": "^22.4.3"
   }
