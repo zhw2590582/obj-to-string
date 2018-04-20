@@ -12,7 +12,8 @@
     "test": "jest"
   },
   "keywords": [
-    "objToString"
+    "objToString",
+    "notJson"
   ],
   "bugs": {
     "url": "https://github.com/zhw2590582/obj-to-string/issues"
