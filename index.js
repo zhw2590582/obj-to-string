@@ -12,7 +12,11 @@ function objToString(obj) {
             case 'object':
                 return '{ ' + Object.keys(obj).map(key => key + ': ' + objToString(obj[key])).join(', ') + ' }';
             default:
-                return '[Unknown type: ' + type + ']';
+                try {
+                  return obj.toString();
+                } catch (e) {
+                  return '[Unknown type: ' + type + ']';
+                }
         }
     default:
         return obj.toString();
