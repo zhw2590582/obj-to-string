@@ -9,6 +9,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "build": "tsc index.ts",
     "test": "jest"
   },
   "keywords": [
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/zhw2590582/obj-to-string#readme",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^22.4.3",
+    "typescript": "^2.8.3"
   }
 }
