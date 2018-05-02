@@ -14,11 +14,7 @@ function objToString(obj: any): string {
             case 'object':
                 return '{ ' + Object.keys(obj).map(key => key + ': ' + objToString(obj[key])).join(', ') + ' }';
             default:
-                try {
-                  return obj.toString();
-                } catch (e) {
-                  return '[Unknown type: ' + type + ']';
-                }
+                return obj.toString();
         }
     default:
         return obj.toString();
