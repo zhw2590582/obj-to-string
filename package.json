@@ -1,6 +1,6 @@
 {
   "name": "obj-to-string",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "description": "对象转字符串（非JSON）",
   "license": "MIT",
   "repository": "zhw2590582/obj-to-string",
